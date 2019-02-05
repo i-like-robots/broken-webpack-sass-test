@@ -10,6 +10,7 @@ module.exports = {
   output: {
     path: path.resolve("./dist")
   },
+  // NOTE: If you remove this resolve configuration then the source code will compile
   resolve: {
     // In which folders the resolver look for modules relative paths are
     // looked up in every parent folder (like node_modules) absolute
